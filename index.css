@@ -20,3 +20,14 @@
     fill: #fff000;
     stroke: #ffc800;
 }
+
+/* Thunder animation */
+.thunder{
+    animation: falldown 1s infinite;
+}
+
+@keyframes falldown{
+    50%{
+        transform: translate(-50px, 50px);
+    }
+}
