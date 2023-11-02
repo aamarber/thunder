@@ -1,0 +1,22 @@
+.backgroundcloud,
+.foregroundcloud{
+    fill-opacity:1;
+    stroke:none;
+    stroke-width:3.96875;
+    stroke-linecap:square;
+    paint-order:fill markers stroke;
+}
+
+.backgroundcloud{
+    fill:#86a3bf;
+    transform: translate(50px, -10px);
+}
+
+.foregroundcloud{
+    fill:#c6e0f7;
+}
+
+.thunder{
+    fill: #fff000;
+    stroke: #ffc800;
+}
